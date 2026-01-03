@@ -1,1 +1,6 @@
-
+table_name,column_name,data_type,nullable,description
+users,id,INTEGER,NO,Primary key identifier
+orders,created_at,TIMESTAMP,NO,Record creation timestamp
+products,price,DECIMAL,NO,Monetary value
+payments,status,VARCHAR,YES,Current processing state
+reviews,rating,INTEGER,YES,User-provided score
